@@ -44,8 +44,17 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    '@nuxtjs/style-resources'
   ],
+
+  // style Resource
+  styleResources: {
+    scss: [
+      'assets/scss/file/_path.scss',
+      'assets/scss/file/_path-two.scss'
+    ]
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
