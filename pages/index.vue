@@ -1,31 +1,19 @@
 <template>
   <div class="container">
-    <div class="one">
-      1
+    <div class="navbar">
+      navbar
     </div>
-    <div class="two">
-      2
+    <div class="logos">
+      logo
     </div>
-    <div class="three">
-      3
+    <div class="content">
+      content
     </div>
-    <div class="four">
-      4
+    <div class="maps">
+      earth logo
     </div>
-    <div class="five">
+    <div class="background">
       5
-    </div>
-    <div class="six">
-      6
-    </div>
-    <div class="seven">
-      7
-    </div>
-    <div class="eight">
-      8
-    </div>
-    <div class="nine">
-      9
     </div>
   </div>
 </template>
@@ -47,7 +35,7 @@ export default {
   grid-auto-rows: minmax(100px, auto);
   gap: 10px;
   margin: 0 auto;
-  // grid-template-areas: "one two three four";
+  // grid-template-areas: "one two three maps";
 
   div {
     background-color: aqua;
@@ -56,32 +44,23 @@ export default {
   }
 }
 
-// .one {
-//   grid-area: one;
-// }
-// .two {
-//   grid-area: two;
-// }
-// .three {
-//   grid-area: three;
-// }
-// .four {
-//   grid-area: four;
-// }
-// .five {
-//   grid-area: five;
-// }
-// .six {
-//   grid-area: six;
-// }
-// .seven {
-//   grid-area: seven;
-// }
-// .eight {
-//   grid-area: eight;
-// }
-// .nine {
-//   grid-area: nine;
-// }
+.navbar {
+  grid-column: 1/7;
+}
+.logos {
+  grid-column: 10/13;
+}
+.content {
+  grid-column: 1/7;
+  grid-row: 2/5
+}
+.maps {
+  grid-column: 1/5;
+  grid-row: 5/7;
+}
+.background {
+  grid-column: 7/10;
+  grid-row: 1/7;
+}
 
 </style>
