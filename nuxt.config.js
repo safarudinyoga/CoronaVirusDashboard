@@ -51,8 +51,7 @@ export default {
   // style Resource
   styleResources: {
     scss: [
-      'assets/scss/file/_path.scss',
-      'assets/scss/file/_path-two.scss'
+      '@/assets/style.scss'
     ]
   },
   /*

@@ -1,0 +1,52 @@
+.red {
+  color: red;
+}
+
+.virus {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.mask {
+  width: 500px;
+  height: 100%;
+}
+
+img {
+  object-fit: contain;
+}
+
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ubuntu', sans-serif;;
+  margin: 0px auto;
+}
+
+.background {
+  background-image: linear-gradient(to right, #131112, #4b1b1b);
+}
+

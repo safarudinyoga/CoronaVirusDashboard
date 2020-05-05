@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="box-container">
     <nuxt />
   </div>
 </template>
@@ -17,11 +17,15 @@ html {
   box-sizing: border-box; */
 }
 
+.box-container {
+  max-width: 1920px;
+}
+
 *,
 *:before,
 *:after {
   box-sizing: border-box;
-  margin: 0;
+  /* margin: 0; */
 }
 
 </style>
