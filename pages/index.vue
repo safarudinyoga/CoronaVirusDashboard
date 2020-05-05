@@ -68,7 +68,6 @@ import instagramsvg from '~/assets/brands-and-logotypes.svg'
 import githubsvg from '~/assets/shape.svg'
 import virussvg from '~/assets/virus.svg'
 import linkedinsvg from '~/assets/social-media.svg'
-import mask from '~/assets/mask-removebg.png'
 import mapcorona from '~/assets/worldmap.png'
 
 export default {
@@ -78,7 +77,6 @@ export default {
       githubsvg,
       virussvg,
       linkedinsvg,
-      mask,
       mapcorona
     }
   }
@@ -116,7 +114,6 @@ export default {
   margin-left: 30px;
   padding: 0;
   display: flex;
-  // justify-content: space-around;
   align-items: center;
   }
 
@@ -263,6 +260,11 @@ export default {
   border-radius: 50%;
   align-self: center;
   background-image: linear-gradient(to right, #da3a3a, #76191b);
+
+    img {
+    width: 800px;
+    height: 800px;
+    }
   }
 
   .logos {
